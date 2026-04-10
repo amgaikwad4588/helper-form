@@ -1,0 +1,14 @@
+node_modules
+dist-electron
+release
+release-telegramss
+app
+dist
+.env
+.env.*
+**/.DS_Store
+**/.vscode
+**/.idea
+scripts
+**/scripts/
+scripts/manual-notarize.js
