@@ -1,13 +1,13 @@
 # TelegramSS
 
-A simple screenshot capture tool that sends screenshots directly to Telegram with just a keyboard shortcut.
+A simple screenshot capture tool that sends screenshots directly to Telegram with just a keyboard shortcut. Can also process screenshot requests with gemini API
 
 ## Features
 
-- 📸 **Quick Screenshot** - Press Ctrl+Z to capture and send instantly
-- 📤 **Telegram Integration** - Screenshots sent directly to your Telegram bot
-- 🔢 **Request Numbering** - Each batch gets a unique request number
-- 🔒 **Local Storage** - All data stored on your machine
+-  **Quick Screenshot** - Press Ctrl+Z to capture and send instantly
+-  **Telegram Integration** - Screenshots sent directly to your Telegram bot
+-  **Request Numbering** - Each batch gets a unique request number
+-  **Local Storage** - All data stored on your machine
 
 ## Quick Start
 
