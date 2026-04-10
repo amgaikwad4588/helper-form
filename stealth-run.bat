@@ -19,10 +19,10 @@ echo.
 cd /D "%~dp0"
 
 echo === Step 1: Creating required directories... ===
-mkdir "%APPDATA%\interview-coder-v1\temp" 2>nul
-mkdir "%APPDATA%\interview-coder-v1\cache" 2>nul
-mkdir "%APPDATA%\interview-coder-v1\screenshots" 2>nul
-mkdir "%APPDATA%\interview-coder-v1\extra_screenshots" 2>nul
+mkdir "%APPDATA%\telegramss\temp" 2>nul
+mkdir "%APPDATA%\telegramss\cache" 2>nul
+mkdir "%APPDATA%\telegramss\screenshots" 2>nul
+mkdir "%APPDATA%\telegramss\extra_screenshots" 2>nul
 
 echo === Step 2: Cleaning previous builds... ===
 echo Removing old build files to ensure a fresh start...

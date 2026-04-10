@@ -39,8 +39,8 @@ export class ConfigHelper extends EventEmitter {
     super();
     // Use the same custom path as main.ts for consistency
     try {
-      // Use interview-coder-v1 folder (same as main.ts) to store config
-      this.configPath = path.join(app.getPath('appData'), 'interview-coder-v1', 'config.json');
+      // Use telegramss folder to store config
+      this.configPath = path.join(app.getPath('appData'), 'telegramss', 'config.json');
       console.log('Config path:', this.configPath);
     } catch (err) {
       console.warn('Could not access app data path, using fallback');

@@ -26,12 +26,12 @@ export class ScreenshotHelper {
     this.view = view;
 
     // Use same custom path as main.ts for consistency
-    const appDataPath = path.join(app.getPath('appData'), 'interview-coder-v1');
+    const appDataPath = path.join(app.getPath('appData'), 'telegramss');
     
     // Initialize directories
     this.screenshotDir = path.join(appDataPath, "screenshots");
     this.extraScreenshotDir = path.join(appDataPath, "extra_screenshots");
-    this.tempDir = path.join(appDataPath, "temp", "interview-coder-screenshots");
+    this.tempDir = path.join(appDataPath, "temp", "telegramss-screenshots");
 
     // Create directories if they don't exist
     this.ensureDirectoriesExist();

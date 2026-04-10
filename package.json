@@ -59,9 +59,9 @@
       "identity": "Developer ID Application",
       "notarize": true,
       "protocols": {
-        "name": "interview-coder-protocol",
+        "name": "telegramss-protocol",
         "schemes": [
-          "interview-coder"
+          "telegramss"
         ]
       }
     },
@@ -72,9 +72,9 @@
       "icon": "assets/icons/win/icon.ico",
       "artifactName": "${productName}-Windows-${version}.${ext}",
       "protocols": {
-        "name": "interview-coder-protocol",
+        "name": "telegramss-protocol",
         "schemes": [
-          "interview-coder"
+          "telegramss"
         ]
       }
     },
@@ -85,20 +85,26 @@
       "icon": "assets/icons/png/icon-256x256.png",
       "artifactName": "${productName}-Linux-${version}.${ext}",
       "protocols": {
-        "name": "interview-coder-protocol",
+        "name": "telegramss-protocol",
         "schemes": [
-          "interview-coder"
+          "telegramss"
         ]
       }
     },
     "publish": [
       {
         "provider": "github",
-        "owner": "ibttf",
-        "repo": "interview-coder",
+        "owner": "amgaikwad4588",
+        "repo": "helper-form",
         "private": false,
         "releaseType": "release"
       }
+    ],
+    "keywords": [
+      "telegram",
+      "screenshot",
+      "tool",
+      "desktop"
     ],
     "extraResources": [
       {
